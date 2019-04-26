@@ -1,0 +1,19 @@
+<h2>Dinosaures</h2>
+<div>
+  <label>Dino nom:
+    <input #dinoName />
+  </label>
+  <button (click)="add(dinoName.value); dinoName.value=''">
+    Adjouter
+  </button>
+</div>
+<ul class="dinos">
+  <li *ngFor="let dino of dinos">
+    <a routerLink="/detail/{{dino.name}}">
+    <span class="badge">Dino</span> {{dino.name}}
+    </a>
+    <button class="delete" title="delete dino"
+      (click)="delete(dino)">x</button>
+
+  </li>
+</ul>

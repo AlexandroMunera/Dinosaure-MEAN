@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Tyrannosaurus rex",
+      "age": 10,
+      "famille": "terópodo tiranosáurido",
+      "race": "Carnívora",
+      "nourriture": "Carnívora"
+    },
+    {
+      "name": "Velociraptor",
+      "age": 20,
+      "famille": "terópodos dromeosáuridos",
+      "race": "Carnívora",
+      "nourriture": "Carnívora"
+    }, 
+    {
+      "name": "Stegosaurus",
+      "age": 30,
+      "famille": "tireósforos estegosáuridos",
+      "race": "Herbívora",
+      "nourriture": "Herbívora"
+    }    
+  ]

@@ -1,0 +1,32 @@
+<div *ngIf="dino">
+  <h2>{{dino.name | uppercase}} Details</h2>
+  <ul>
+    <li>
+      <label>nom:
+        <input [(ngModel)]="dino.name" placeholder="name" />
+      </label>
+    </li>
+    <li>
+      <label>age:
+        <input [(ngModel)]="dino.age" placeholder="age" />
+      </label>
+    </li>
+    <li>
+      <label>famille:
+        <input [(ngModel)]="dino.famille" placeholder="famille" />
+      </label>
+    </li>
+    <li>
+      <label>race:
+        <input [(ngModel)]="dino.race" placeholder="race" />
+      </label>
+    </li>
+    <li>
+      <label>nourriture:
+        <input [(ngModel)]="dino.nourriture" placeholder="nourriture" />
+      </label>
+    </li>
+  </ul>
+  <button (click)="goBack()">Retour</button>
+  <button (click)="save()">Sauve</button>
+</div>

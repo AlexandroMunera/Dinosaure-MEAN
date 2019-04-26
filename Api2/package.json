@@ -1,0 +1,34 @@
+{
+  "name": "dinosaure",
+  "version": "1.0.0",
+  "description": "Dinosaure API - Freud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "fill-db": "node ./db/populate --fill",
+    "clear-db": "node ./db/populate --clear"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandroMunera/Dinosaure-MEAN"
+  },
+  "keywords": [
+    "MEAN",
+    "Dinosaure"
+  ],
+  "author": "Freud Alexandro Munera Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandroMunera/Dinosaure-MEAN/issues"
+  },
+  "homepage": "https://github.com/AlexandroMunera/Dinosaure-MEAN#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.3",
+    "fill-db": "^1.0.1",
+    "mongodb": "^3.1.6",
+    "nodemon": "^1.18.4",
+    "yargs": "^12.0.2"
+  }
+}
